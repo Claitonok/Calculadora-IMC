@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="ICON" type="ICON" sizes="16x16" href="./img/Calculator_31111.ico">
+    <link rel="stylesheet" href="./css/principal.css">
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <form action="./resultado_imc.php" method="post">
+
+            <img src="./img/imagemIMC.jpeg" width="360" height="250">
+
+            <h2>Calcular - IMC</h2>
+
+            <div class="cabeca">
+                <input type="number" min="0" name="peso" id="" placeholder="Informe seu peso" required> kg
+                <input type="number" min="0.1" step="0.01" name="altura" id="" placeholder="Informe a sua altura" required> m
+            </div>
+            
+            <div class="checkbox">
+                Feminino: <input type="checkbox" name="Feminino" id="">  |   Masculino: <input type="checkbox" name="Masculino" id="">
+            </div>
+    
+             <div class="button">
+                 <button type="submit" class="btn btn-success">Calcular</button>
+                 <button type="reset" class="btn btn-danger">DELETAR</button>
+             </div>
+
+             <div class="formula">
+                <!-- MANEIRA DE BAIXAR UM ARQUIVO NO COMPUTADOR -->
+                <a href="./img/Formula do IMC.jpeg" download="formula">Baixe a formula do IMC</a>
+             </div>
+        </form>
+
+    <div class="rodape">
+        <a href="http://"><img src="./img/github_original_wordmark_logo_icon_146506.ico"  width="50" height="50"></a>
+    </div> 
+
+</body>
+</html>
