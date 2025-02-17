@@ -53,7 +53,7 @@ function classificaIMC($imc)
 <body>
 
 
-<form action="./index.php" method="post">
+<form action="./index.html" method="post">
 
 <img src="./img/imagemIMC.jpeg" width="360" height="250">
 
