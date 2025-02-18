@@ -1,4 +1,4 @@
 # Calculadora-IMC
 calculando imc
 
-# Link: http://calcular-imc.rf.gd/?i=1
+# Link: https://calcular-imc.rf.gd/
